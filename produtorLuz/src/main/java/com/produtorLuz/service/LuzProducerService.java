@@ -1,8 +1,7 @@
+package com.produtorLuz.service;
 
-package com.produtorLuz.luz.service;
-
-import com.produtorLuz.luz.config.RabbitMQConfig;
-import com.produtorLuz.luz.dto.LuzDTO;
+import com.produtorLuz.config.RabbitMQConfig;
+import com.produtorLuz.dto.LuzDTO;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -12,7 +11,7 @@ public class LuzProducerService {
 
     private final RabbitTemplate rabbitTemplate;
 
-    @Value("${luz.rabbitmq.routing-key}")
+    @Value("${config.rabbitmq.routing-key}")
     private String routingKey;
 
     public LuzProducerService(RabbitTemplate rabbitTemplate) {

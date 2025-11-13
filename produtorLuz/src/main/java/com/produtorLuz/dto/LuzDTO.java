@@ -1,4 +1,4 @@
-package com.produtorLuz.luz.dto;
+package com.produtorLuz.dto;
 
 import lombok.Data;
 import java.io.Serializable;

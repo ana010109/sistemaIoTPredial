@@ -1,7 +1,7 @@
-package com.produtorLuz.luz.controller;
+package com.produtorLuz.controller;
 
-import com.produtorLuz.luz.service.LuzProducerService;
-import com.produtorLuz.luz.dto.LuzDTO; 
+import com.produtorLuz.service.LuzProducerService;
+import com.produtorLuz.dto.LuzDTO; 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody; 

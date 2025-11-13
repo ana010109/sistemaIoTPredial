@@ -1,4 +1,4 @@
-package com.produtorLuz.luz.config;
+package com.produtorLuz.config;
 
 import org.springframework.amqp.core.TopicExchange;
 import org.springframework.context.annotation.Bean;
