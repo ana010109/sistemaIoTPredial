@@ -1,4 +1,4 @@
-package produtorPortao.dto;
+package com.produtorPortao.dto;
 
 import lombok.Data;
 import java.io.Serializable;
@@ -9,7 +9,7 @@ public class PortaoDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    private String acao; // "ABRIR", "FECHAR", "PARAR"
+    private String acao;
     private String idDispositivo; 
     private int area; 
     private Instant timestamp = Instant.now();

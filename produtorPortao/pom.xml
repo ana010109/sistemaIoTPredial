@@ -6,12 +6,12 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.5.7</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>com.produtorPortao</groupId>
-	<artifactId>area</artifactId>
+	<artifactId>produtorPortao</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>area</name>
+	<name>produtorPortao</name>
 	<description>Produtor do portao</description>
 	<url/>
 	<licenses>
@@ -38,7 +38,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+   			 <groupId>org.springframework.boot</groupId>
+  		     <artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
